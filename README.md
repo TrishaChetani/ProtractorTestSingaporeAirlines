@@ -77,7 +77,6 @@ Use the below command to run the test
  - `data` contain any test data / hard coded data to be used in test
  Reuse the test data , ( avoid having duplicates)
 
-
  # Video of Running Test 
  ```https://ufile.io/vqrlb```
 
