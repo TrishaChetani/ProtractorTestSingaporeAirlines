@@ -73,9 +73,11 @@ Use the below command to run the test
 
 - `Lib` Folder is having all library function
 - `Page` Folder When writing end-to-end tests, a common pattern is to use Page Objects. Page Objects help you write cleaner tests by encapsulating information about the elements on your application page. A Page Object can be reused across multiple tests, and if the template of your application changes, you only need to update the Page Object.
-- `Test Suite`, testSuite will have test cases. All test cases will have proper log statement which will be easier for debugging in case of failure. Avoid writing web element directly inside testSuite.js folder as later don’t need to change anything on testSuite 
- - `data`, contain any test data / hard coded data to be used in test
+- `Test Suite` testSuite will have test cases. All test cases will have proper log statement which will be easier for debugging in case of failure. Avoid writing web element directly inside testSuite.js folder as later don’t need to change anything on testSuite 
+ - `data` contain any test data / hard coded data to be used in test
  Reuse the test data , ( avoid having duplicates)
+
 
  ## Video of Running Test 
  ```https://ufile.io/vqrlb```
+
