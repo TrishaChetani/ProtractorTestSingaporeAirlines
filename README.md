@@ -6,7 +6,7 @@
 - [`Protractor`](http://www.protractortest.org/#/)
 - webdriver-manager
 
-## Test Scenario : Book Online Air Tickets
+## Test Scenario : Book Online Air Tickets via Sinagpore Airlines
 ## Test Cases :
 1. Open Google.com
 2. Search for Singapore Airlines
@@ -78,5 +78,7 @@ Use the below command to run the test
  Reuse the test data , ( avoid having duplicates)
 
  # Video of Running Test 
- ```https://ufile.io/vqrlb```
+ ```https://www.dropbox.com/s/sla9ld728gfises/SingaporeAirlinesAutomatedTest.mov?dl=0```
+ ```https://gfycat.com/GrimyAcceptableDachshund```
+
 
