@@ -1,0 +1,25 @@
+{
+  "name": "SingaporeAir",
+  "version": "1.0.0",
+  "description": "User Guide for Booking Online Air Tickets using automated script ====",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "test": "protractor conf.js"
+  },
+  "keywords": [
+    "Selenium",
+    "protractor",
+    "Automated test"
+  ],
+  "author": "Trisha Chetani",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.20.0",
+    "protractor": "^5.3.0",
+    "protractor-screenshoter-plugin": "^0.10.0"
+  }
+}
