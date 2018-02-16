@@ -49,7 +49,44 @@ fi
 ### using docker compose set the grid
 docker-compose up -d
 docker-compose scale chrome=13
+```
+### Connection to MySQL datatbase for database verification
+New file > Database.js
 
+```
+var mysql = require('mysql');
+var sql = {
+    query: function(query) {
+        var connection = mysql.createConnection({
+            host: '10.138.0.13',
+            port: 13306,
+            user: 'root',
+            password: 'weardex',
+            database: 'dashboard_vagrant'
+        });
+        return new Promise(function(resolve) {
+            connection.query(query, function(err, rows) {
+                if (!err) {
+                    console.log(rows);
+                    resolve(rows);
+                } else {
+                    console.log(err);
+                    reject(err);
+                    throw err
+                   
+                }
+            });
+            browser.driver.sleep(2000);
+        }).then(connection.end())
+    }
+}
+module.exports = sql;
+
+usage in test class
+TestCases.js
+ sqlLib.query("select token from TableName where column ='" + column + "'").then(function(rows) {
+            console.log("token value :", rows[0].token);
+         )};
 ```
 
 
