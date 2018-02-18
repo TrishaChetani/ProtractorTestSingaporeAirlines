@@ -58,11 +58,11 @@ var mysql = require('mysql');
 var sql = {
     query: function(query) {
         var connection = mysql.createConnection({
-            host: '10.138.0.13',
-            port: 13306,
-            user: 'root',
-            password: 'weardex',
-            database: 'dashboard_vagrant'
+            host: '',
+            port: ,
+            user: '',
+            password: '',
+            database: ''
         });
         return new Promise(function(resolve) {
             connection.query(query, function(err, rows) {
