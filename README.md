@@ -1,4 +1,4 @@
-#Guide for Booking Online Air Tickets using automated script
+# Guide for Booking Online Air Tickets using automated script
  - it will simulate user actions in web browser and check if function works as expected.
 
 ## Tech stacks
